@@ -1,0 +1,15 @@
+TOSECONDS
+
+TOSECONDS takes arbitrary number of pairs of Strings and Integers.
+It then converts the time to seconds according to the content of 
+the String.
+We can assume that Strings are all in the form of h, min, or sec. 
+
+Input: TOSECONDS 1 h 10 min 30 sec
+Output: 3690 sec
+
+Input: TOSECONDS 2 min 15 sec
+Output: 135 sec
+
+Input TOSECONDS 60 sec
+Output 60 sec
